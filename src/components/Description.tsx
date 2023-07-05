@@ -38,7 +38,7 @@ export default function Description() {
           $169.99
         </span>
       </div>
-      <button className="flex w-auto items-center justify-center gap-3 rounded-lg bg-primary-dark-cyan py-3.5 text-sm font-semibold text-neutral-white hover:bg-primary-dark-cyan">
+      <button className="flex w-auto items-center justify-center gap-3 rounded-lg bg-primary-dark-cyan py-3.5 text-sm font-semibold text-neutral-white hover:bg-primary-hover-cyan active:bg-primary-hover-cyan/90">
         <IconCart />
         Add to Cart
       </button>

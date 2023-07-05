@@ -12,6 +12,7 @@ export default {
       colors: {
         primary: {
           "dark-cyan": "hsl(158, 36%, 37%)",
+          "hover-cyan": "hsl(156, 42%, 17%)",
           cream: "hsl(30, 38%, 92%)",
         },
         neutral: {
