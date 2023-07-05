@@ -38,7 +38,7 @@ export default function Home() {
       </Head>
       <div
         className={cn(
-          "flex h-[611px] w-[344px] flex-col rounded-xl bg-neutral-white",
+          "flex h-[610px] w-[344px] flex-col rounded-xl bg-neutral-white",
           "md:h-[450px] md:w-[600px] md:flex-row"
         )}
       >
