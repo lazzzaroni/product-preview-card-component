@@ -2,32 +2,43 @@ import { cn } from "@/lib/utils";
 
 export default function Description() {
   return (
-    <section className={cn("flex w-full flex-col p-6 md:w-1/2")}>
-      <span className={cn("text-xs tracking-[0.2rem] text-black/60")}>
+    <section className={cn("flex w-full flex-col p-6", "md:w-1/2")}>
+      <span
+        className={cn(
+          "text-xs tracking-[0.25rem] text-neutral-very-dark-blue/70",
+          "md:py-2"
+        )}
+      >
         PERFUME
       </span>
       <h1
-        className={cn("pb-4 pt-3 font-serif text-3xl font-semibold leading-8")}
+        className={cn(
+          "pb-4 pt-3 font-serif text-3xl font-bold leading-8",
+          "md:pr-6"
+        )}
       >
         Gabrielle Essence Eau De Parfum
       </h1>
-      <p className={cn("pr-2 text-sm leading-relaxed text-black/60")}>
+      <p
+        className={cn(
+          "pr-2 text-sm leading-relaxed text-neutral-very-dark-blue/70",
+          "md:py-2 md:pr-3"
+        )}
+      >
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
-      <div className={cn("flex items-center gap-4 pb-4 pt-6 ")}>
-        <span
-          className={cn(
-            "font-serif text-3xl font-semibold text-primary-dark-cyan"
-          )}
-        >
+      <div
+        className={cn("flex items-center gap-4 pb-4 pt-6", "md:pb-6 md:pt-5")}
+      >
+        <span className="font-serif text-3xl font-bold text-primary-dark-cyan">
           $149.99
         </span>
-        <span className={cn("text-xs text-black/60 line-through")}>
+        <span className="text-xs text-neutral-very-dark-blue/70 line-through decoration-primary-dark-cyan/70">
           $169.99
         </span>
       </div>
-      <button className="flex w-auto items-center justify-center gap-3 rounded-lg bg-primary-dark-cyan py-3.5 text-sm font-semibold text-neutral-white">
+      <button className="flex w-auto items-center justify-center gap-3 rounded-lg bg-primary-dark-cyan py-3.5 text-sm font-semibold text-neutral-white hover:bg-primary-dark-cyan">
         <IconCart />
         Add to Cart
       </button>

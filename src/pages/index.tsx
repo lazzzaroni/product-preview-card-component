@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import { cn } from "@/lib/utils";
 import Description from "@/components/Description";
+import Footer from "@/components/Footer";
 import Picture from "@/components/Picture";
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
         <Picture />
         <Description />
       </div>
+      <Footer />
     </>
   );
 }
